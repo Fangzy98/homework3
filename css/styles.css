@@ -156,6 +156,11 @@ header p {
   overflow: hidden;
 }
 
+/* This can make the images same as the 650px screenshots but not the 900px one, I am not sure should I keep it or not */
+/* img {
+  max-width: 100%;
+} */
+
 .about,
 .about-image {
   /*Your code here */
@@ -221,8 +226,11 @@ header p {
     /*Your code here */
     /* See documentation for desktop view */
     grid-column: 3 / 5;
-
   }
+
+  /* img {
+    height: 100%;
+  } */
 
   .method,
   .contact,
