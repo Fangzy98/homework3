@@ -156,9 +156,9 @@ header p {
   overflow: hidden;
 }
 
-/* This can make the images same as the 650px screenshots but not the 900px one, I am not sure should I keep it or not */
+/* ！！！This can make the images same as the 650px screenshots but not the 900px one, I am not sure should I keep it or not！！！ */
 /* img {
-  max-width: 100%;
+  width: 100%;
 } */
 
 .about,
@@ -210,6 +210,10 @@ header p {
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 70px repeat(5, 400px) 100px;
+  }
+
+  .skip a:focus {
+    top: 20px;
   }
 
   nav {
